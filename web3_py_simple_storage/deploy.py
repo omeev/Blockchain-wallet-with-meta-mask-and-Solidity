@@ -1,6 +1,7 @@
 from solcx import compile_standard
 import json
 
+//Enter the correct path of SimpleStorage.sol file
 with open("./SimpleStorage.sol", "r") as file:
     simple_storage_file = file.read()
     #print(simple_storage_file)
