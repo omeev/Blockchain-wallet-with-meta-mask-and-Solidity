@@ -1,11 +1,11 @@
 from solcx import compile_standard
 import json
 
-#Enter the correct path of SimpleStorage.sol file#
+# Enter the correct path of SimpleStorage.sol file#
 with open("./SimpleStorage.sol", "r") as file:
     simple_storage_file = file.read()
-    #print(simple_storage_file)
-# Compile our Solidity
+    print(simple_storage_file)
+# Compile our Solidity #
 compiled_sol = compile_standard(
     {
         "language": "Solidity",
